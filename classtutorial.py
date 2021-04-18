@@ -1,8 +1,12 @@
 class Budget:
 
-    budget_account_balance = 0
-    option = 0
-    input_err = ''
+    """
+    A simple python app that implements Budgetting of Food, Clothing and Entertainment with the features:
+    1. Deposit
+    2. Check balance
+    3. Withdrawal
+    4. Transfer
+    """   
     
     def __init__(self, category, amount):
         self.category = category
